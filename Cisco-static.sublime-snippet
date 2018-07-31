@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+object network OBJ-${1:REAL_IP}
+ host ${1:REAL_IP}
+object network OBJ-${2:MAPPED_IP}
+ host ${2:MAPPED_IP}
+nat (${3:INSIDE},${4:OUTSIDE}) source static OBJ-${1:REAL_IP} OBJ-${2:MAPPED_IP}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>static</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.cisco</scope> -->
+</snippet>

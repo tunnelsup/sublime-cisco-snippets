@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+access-list ${1:NAME} extended permit ${2:ip} ${3:any} ${4:any}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>acl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.cisco</scope> -->
+</snippet>

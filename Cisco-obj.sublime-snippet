@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+object-group network OBJ-${1:NAME}
+ network-object ${2:host} ${1:MASK/IP} ${3:MASK}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>obj</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.cisco</scope> -->
+</snippet>

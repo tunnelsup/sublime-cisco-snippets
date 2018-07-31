@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+route ${1:INSIDE} ${2:DST_ADDRESS} ${3:MASK} ${4:GATEWAY}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>route</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.cisco</scope> -->
+</snippet>
